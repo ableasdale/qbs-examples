@@ -1,5 +1,6 @@
 # qbs-examples
 
+```
 qbs install
 qbs config defaultProfile qt-5-9-2
 qbs-setup-qt
@@ -30,3 +31,4 @@ mv helloworld* helloworld-simple/
 mkdir helloworld-simple
 cd helloworld-qt/
 sudo dnf install qbs
+```
