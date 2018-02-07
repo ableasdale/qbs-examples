@@ -1,5 +1,17 @@
 # qbs-examples
 
+## OSX
+
+```
+brew install qbs
+brew install qt5
+brew link qt5 --force
+qbs-setup-qt --detect
+qbs config defaultProfile qt-5-10-0
+```
+
+
+## Linux (Fedora)
 ```
 qbs install
 qbs config defaultProfile qt-5-9-2
